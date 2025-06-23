@@ -57,18 +57,6 @@ export default function Home() {
 
       <Separator />
 
-      <section id="contact" className="py-10 px-4 sm:px-6 md:px-20 text-center">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">Mua hàng tại Facebook</h2>
-        <a
-          href="https://www.facebook.com/shopoanhnguyen123"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline text-base sm:text-lg"
-        >
-          facebook.com/shopoanhnguyen123
-        </a>
-      </section>
-
       <Footer />
     </div>
   );

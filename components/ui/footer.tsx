@@ -8,44 +8,16 @@ export default function Footer() {
             CÔNG TY TNHH TM OANH NGUYỄN
           </h3>
           <p className="mt-2">
-            <div><span className="font-bold">Địa chỉ:</span> Số 109 đường số 18, KDC Bình Hưng, Xã Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh</div>
+            <div>
+              <span className="font-bold">Địa chỉ:</span> Số 109 đường số 18,
+              KDC Bình Hưng, Xã Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh
+            </div>
           </p>
           <p>
             <strong>Điện thoại:</strong> 0933.345.095
           </p>
           <p>
             <strong>Email:</strong> tmoanhnguyen@gmail.com
-          </p>
-        </div>
-
-        {/* Cột 2: Chủ sở hữu */}
-        <div>
-          <h3 className="text-base font-semibold mb-2">
-            Thông tin người đại diện
-          </h3>
-          <p>
-            <strong>Họ và tên:</strong> Nguyễn Thị Kiều Oanh
-          </p>
-          <p>
-            <strong>Giới tính:</strong> Nữ
-          </p>
-          <p>
-            <strong>Ngày sinh:</strong> 21/08/1988
-          </p>
-          <p>
-            <strong>Dân tộc:</strong> Kinh
-          </p>
-          <p>
-            <strong>Quốc tịch:</strong> Việt Nam
-          </p>
-          <p>
-            <strong>Số CCCD:</strong> 094188000154
-          </p>
-          <p>
-            <strong>Ngày cấp:</strong> 13/08/2021
-          </p>
-          <p>
-            <strong>Nơi cấp:</strong> Cục Cảnh sát QLHC về TTXH
           </p>
         </div>
 
@@ -64,6 +36,24 @@ export default function Footer() {
             <br />
             C3/88A, ấp 3, Xã Phong Phú, Huyện Bình Chánh, TP. Hồ Chí Minh
           </p>
+        </div>
+        <div>
+          <section
+            id="contact"
+            className="py-10 px-4 sm:px-6 md:px-20 text-center"
+          >
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
+              Mua hàng tại Facebook
+            </h2>
+            <a
+              href="https://www.facebook.com/shopoanhnguyen123"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline text-base sm:text-lg"
+            >
+              facebook.com/shopoanhnguyen123
+            </a>
+          </section>
         </div>
       </div>
       <div className="mt-10 text-center text-xs text-gray-600">
