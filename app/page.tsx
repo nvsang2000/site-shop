@@ -11,15 +11,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       <Header />
-      <section id="about" className="py-10 px-4 sm:px-6 md:px-20">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">Giới thiệu doanh nghiệp</h2>
-        <p className="mb-2"><strong>Mã số doanh nghiệp:</strong> 0319000653 (Đăng ký ngày 12/06/2025)</p>
-        <p className="mb-2"><strong>Địa chỉ:</strong> Số 109 đường số 18, KDC Bình Hưng, Xã Bình Hưng, Huyện Bình Chánh, TP.HCM</p>
-        <p className="mb-2"><strong>Điện thoại:</strong> 0933.345.095 | <strong>Email:</strong> tmoanhnguyen@gmail.com</p>
-        <p className="mb-2"><strong>Vốn điều lệ:</strong> 500.000.000 VNĐ</p>
-        <p className="mb-2"><strong>Người đại diện:</strong> Nguyễn Thị Kiều Oanh</p>
-      </section>
-
       <Separator />
 
       <section className="bg-gray-100 py-12 px-4 sm:px-6 md:px-20">
